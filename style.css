@@ -1,0 +1,66 @@
+body{
+    background: #fe3c72;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius:5px;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-color: lightgray}
+
+    #icon{
+        
+        width:60px;
+        height:60px;
+        margin-left: 10px;
+    }
+
+   #bimber-header{
+       margin-left:10px;
+   }
+
+   #statement{
+       margin-left:auto;
+       padding:10px;
+       font-weight: bold;
+       
+   }
+
+   #container{
+       display: flex;
+       justify-content: center;
+   }
+
+   .personCard{
+       
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+       margin-top:15px;
+        width: 30vw;
+       height: 80vh;
+      
+   }
+
+   .likes{
+       display:flex;
+       flex-direction: row;
+       justify-content:space-evenly;
+      
+   }
+
+   .like{
+       width:70px;
+       height:70px;
+   }
+
+   @media screen and (max-width: 850px){
+    .personCard{width: 90vmin;}
+    
+   }
